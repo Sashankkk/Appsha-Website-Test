@@ -82,7 +82,7 @@ public class ValidLog {
             }
 
         } catch (Exception e) {
-            System.out.println("❌ Exception during login for: " + email + " - " + e.getMessage());
+            System.out.println(" Exception during login for: " + email + " - " + e.getMessage());
             fail("Test failed for: " + email);
         }
     }
